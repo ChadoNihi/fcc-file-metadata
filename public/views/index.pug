@@ -1,0 +1,17 @@
+html
+head
+  title= title
+  meta(name="viewport" content="width=device-width, initial-scale=1.0")
+  link(href="../stylesheets/main.css" rel="stylesheet")
+  link(rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons")
+  link(rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-amber.min.css")
+  script(defer src="https://code.getmdl.io/1.2.1/material.min.js")
+body
+  .mdl-layout__container
+    .mdl-layout.mdl-js-layout
+      main.mdl-layout__content
+        .mdl-grid
+          .mdl-cell.mdl-cell--12-col
+            h1 get Metadata of your file!
+          .mdl-cell.mdl-cell--12-col
+            form(enctype="multipart/form-data" method="post" name="fileform")
