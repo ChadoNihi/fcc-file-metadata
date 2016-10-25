@@ -14,6 +14,6 @@ body
           .mdl-cell.mdl-cell--12-col.w-centered
             h1 get Metadata of your file!
           .mdl-cell.mdl-cell--12-col.w-centered
-            form(enctype="multipart/form-data" method="post" name="fileform")
+            form(action='upload' enctype="multipart/form-data" method="post" name="fileform")
               input(type="file" name="file" required)
               input(type="submit" value="Submit for metadata!")

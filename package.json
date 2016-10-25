@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ChadoNihi/fcc-file-metadata#readme",
   "dependencies": {
     "express": "^4.14.0",
+    "multer": "^1.2.0",
     "nib": "^1.1.2",
     "pug": "^2.0.0-beta6",
     "stylus": "^0.54.5"
