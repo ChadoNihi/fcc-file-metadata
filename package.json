@@ -1,0 +1,25 @@
+{
+  "name": "file_meta",
+  "version": "1.0.0",
+  "description": "https://www.freecodecamp.com/challenges/file-metadata-microservice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChadoNihi/fcc-file-metadata.git"
+  },
+  "author": "eFish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChadoNihi/fcc-file-metadata/issues"
+  },
+  "homepage": "https://github.com/ChadoNihi/fcc-file-metadata#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "nib": "^1.1.2",
+    "pug": "^2.0.0-beta6",
+    "stylus": "^0.54.5"
+  }
+}
